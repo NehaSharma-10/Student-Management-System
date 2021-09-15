@@ -3,6 +3,7 @@
 
 <head>
     <!-- Required meta tags -->
+    <link rel="stylesheet" href="./css/teacherlogin.css">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -14,100 +15,62 @@
     <title>Teacher Page</title>
 </head>
 
-<style>
-    * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-        font-family: 'Playfair Display', serif;
-    }
-    
-    body,
-    html {
-        width: 100%;
-        height: auto;
-        background-color: #5E454B;
-    }
-    
-    h3 {
-        background-color: #CEE5D0;
-        color: black;
-        text-align: center;
-        font-size: 30px;
-        width: 100%;
-    }
-    
-    .heading-div {
-        background-color: #CEE5D0;
-        height: 70px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-bottom: 80px;
-    }
-    
-    .teacher-form-main-div {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    
-    .form-div {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        width: 300px;
-        height: 300px;
-        border: 1px solid black;
-        border-radius: 9px;
-    }
-    
-    .form-div form {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-    
-    .form-div form input {
-        margin-bottom: 20px;
-    }
-    
-    .form-div form input {
-        height: 35px;
-        width: 170px;
-        border: 1px solid black;
-        border-radius: 3px;
-    }
-    
-    .form-div form button {
-        background-color: #F7D59C;
-    }
-</style>
 
 <body>
-    <div class="heading-div">
-        <div class="in-heading-div"></div>
-        <h3>Teacher's Page</h3>
+    <nav class="navbar navbar-expand-lg navbar-light ">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Teacher Login Page</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="./contact.html">Contact</a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+
+    </nav>
+
+    <!-- nav bar end -->
+
+    <!-- design div start -->
+    <div class="design-circle">
+        <h1>boom</h1>
     </div>
+
+
+    <div class="design-circle-2">
+        <h1>yes yess</h1>
+    </div>
+
+    <!-- design div end -->
+
+
 
 
     <div class="teacher-form-main-div">
         <div class="form-div">
-
+            <hr>
             <form action="">
-                <input type="text" placeholder=" Full Name">
+                <input type="text" class="faculty-name-input" placeholder="Full Name">
                 <br>
-                <input type="text" placeholder="Teacher Code">
+                <input type="text" class="faculty-code-input" placeholder="Teacher Code">
                 <br>
-                <button type="submit" class="btn btn-primary">Submit</button>
+                <button type="submit" class="submit-btn">Submit</button>
             </form>
 
 
         </div>
 
     </div>
+
 
 
 

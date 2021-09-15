@@ -1,0 +1,195 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: 'Roboto Condensed', sans-serif; */
+    font-family: 'Playfair Display', serif;
+}
+
+body,
+html {
+    margin-top: 0;
+    width: 100%;
+    height: auto;
+}
+
+.fa-school {
+    color: black;
+    margin-right: 20px;
+    background-color: #FFB319;
+}
+
+.navbar {
+    font-size: 20px;
+    height: 80px;
+    margin-top: 0;
+    background-color: #FFB319;
+}
+
+.navbar-nav {
+    padding-right: 30px;
+    margin-left: auto;
+}
+
+.navbar-nav {
+    display: inline;
+}
+
+.navbar-brand {
+    font-size: 20px;
+}
+
+.navbar-brand i {
+    background-color: #FFB319;
+    color: black;
+}
+
+.navbar-nav li {
+    margin-right: 20px;
+}
+
+.navbar-nav a {
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+.result-page-div {
+    text-align: center;
+    height: 420px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.student-enroll-div h4 {
+    font-weight: bold;
+    margin-bottom: 22px;
+}
+
+.enroll-no-input {
+    text-align: center;
+    width: 150px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 3px;
+    margin-bottom: 15px;
+}
+
+.select-course-select {
+    text-align: center;
+    width: 150px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 3px;
+    margin-bottom: 15px;
+}
+
+.result-submit-btn {
+    width: 130px;
+    margin-top: 12px;
+    height: 33px;
+    border: 1px solid black;
+    border-radius: 50px;
+    color: #FFB319;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.login-btn-div form .login-btn-faculty {
+    width: 80px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 50px;
+    color: #FFB319;
+    background-color: rgba(0, 0, 0, 0.8);
+    margin-left: 150px;
+    margin-top: 100px;
+}
+
+.login-btn-div form button a {
+    text-decoration: none;
+    color: #FFB319;
+}
+
+.contact-div {
+    height: 125px;
+    padding: 30px;
+    color: black;
+    background-color: #FFB319;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-div div {
+    margin-right: 80px;
+    background-color: #FFB319;
+}
+
+.address-phone-email-div {
+    flex: 1;
+    display: flex;
+    background-color: #FFB319;
+}
+
+.fa {
+    background-color: #FFB319;
+}
+
+.address-phone-email-div div {
+    background-color: #FFB319;
+}
+
+.contact-div-heading {
+    background-color: #FFB319;
+}
+
+.contact-div .address-phone-email-div div h4,
+.address-phone-email-div div p,
+.address-phone-email-div div i {
+    background-color: #FFB319;
+}
+
+.address-phone-email-div .social-media-links i {
+    margin-right: 23px;
+    cursor: pointer;
+}
+
+.social-media-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.address-phone-email-div .social-media-links i:hover {
+    color: black;
+}
+
+.design-circle {
+    height: 300px;
+    width: 300px;
+    border-bottom: 10px solid #FFB319;
+    border-left: 10px solid #FFB319;
+    border-radius: 170px;
+    position: absolute;
+    left: 1065px;
+    top: 40px;
+}
+
+.design-circle h2 {
+    display: none;
+}
+
+.design-circle-2 h2 {
+    display: none;
+}
+
+.design-circle-2 {
+    height: 300px;
+    width: 300px;
+    border-top: 10px solid #FFB319;
+    border-right: 10px solid #FFB319;
+    border-radius: 170px;
+    position: absolute;
+    top: 250px;
+}
