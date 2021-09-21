@@ -52,9 +52,9 @@
     <!-- circle design part start -->
 
 
-    <div class="design-circle">
+    <!-- <div class="design-circle">
         <h2>boom boom</h2>
-    </div>
+    </div> -->
 
 
     <div class="design-circle-2">
@@ -107,31 +107,30 @@
 
     <div class="contact-div">
         <!-- 1 -->
-        <div>
-            <h3 class="contact-div-heading">Get In Touch</h3>
-        </div>
+        
 
 
         <!-- 2 -->
         <div class="address-phone-email-div">
-
+        <div class="get-in-touch-heading">
+            <h3 class="contact-div-heading">Get In Touch</h3>
+        </div>
             <div class="address-div">
                 <h4>Address</h4>
-                <i class="fas fa-map-marker-alt"></i>
-                <p>Radhe colony, Ganesh Vihar</p>
+                <i class="fas fa-map-marker-alt"><p>Radhe colony, Ganesh Vihar</p></i>
+                
 
             </div>
 
             <div class="phone-num-div">
                 <h4>Phone</h4>
-                <i class="fas fa-phone-alt"></i>
-                <p>203165130215112214</p>
+                <i class="fas fa-phone-alt"><p>203165130215112214</p></i>
+                
             </div>
 
             <div class="footer-email-div">
                 <h4>Email</h4>
-                <i class="fas fa-at"></i>
-                <p>myschool.abc@gmail.org</p>
+                <i class="fas fa-at"><p>myschool.abc@gmail.org</p></i>
 
             </div>
 

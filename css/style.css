@@ -119,19 +119,28 @@ html {
     display: flex;
     justify-content: center;
     align-items: center;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
 }
 
-.contact-div div {
+/* .contact-div div {
     margin-right: 80px;
     background-color: #FFB319;
-}
+} */
 
 .address-phone-email-div {
     flex: 1;
     display: flex;
     background-color: #FFB319;
+    justify-content: space-evenly;
 }
-
+.get-in-touch-heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .fa {
     background-color: #FFB319;
 }
